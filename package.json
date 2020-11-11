@@ -1,0 +1,28 @@
+{
+  "name": "magic-orange",
+  "displayName": "Magic Orange 🍊 Color theme",
+  "description": "Magic Orange 🍊 Color theme",
+  "publisher": "anridev",
+  "version": "1.0.5",
+  "repository": "",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "anridev",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MagicOrange-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "e93c6e61-6024-44a3-8658-1c06e104d00a",
+    "publisherDisplayName": "anridev",
+    "publisherId": "13de0e02-6f12-4c13-ade8-401a55ff24c8"
+  }
+}
