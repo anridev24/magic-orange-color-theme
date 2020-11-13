@@ -13,7 +13,7 @@
     "editorCursor.foreground": "#f8f8f0",
     "editorGroupHeader.tabsBackground": "#1C1D1A",
     "editorWhitespace.foreground": "#31332e",
-    "focusBorder": "#ff5100",
+    "focusBorder": "#EE5A24",
     "foreground": "#f8f8f0",
     "input.background": "#1c1d1a",
     "list.activeSelectionBackground": "#31332e",
@@ -26,21 +26,21 @@
     "scrollbarSlider.background": "#31332e",
     "selection.background": "#949690",
     "sideBar.background": "#1C1D1A",
-    "statusBar.background": "#ff5100", //set here
-    "statusBar.noFolderBackground": "#ff5100",
+    "statusBar.background": "#EE5A24", //set here
+    "statusBar.noFolderBackground": "#EE5A24",
     "tab.inactiveBackground": "#1C1D1A",
     "textLink.activeForeground": "#833d1d",
-    "textLink.foreground": "#ff5100",
+    "textLink.foreground": "#EE5A24",
     "titleBar.activeBackground": "#1C1D1A",
     "titleBar.inactiveBackground": "#1C1D1A",
-    "window.activeBorder": "#ff5100",
+    "window.activeBorder": "#EE5A24",
     "window.inactiveBorder": "#1c1d1a",
-    "activityBar.activeBorder": "#ff5100",
+    "activityBar.activeBorder": "#EE5A24",
     // "activityBar.dropBackground": "#ffffff1f",
     "activityBar.foreground": "#f8f8f2",
     // "activityBar.inactiveForeground": "#ffffff66",
     // "activityBarBadge.foreground": "#ffffff"
-    "badge.background": "#ff5100",
+    "badge.background": "#EE5A24",
     "badge.foreground": "#f8f8f2",
     //"breadcrumb.activeSelectionForeground": "#ffffff",
     //"breadcrumb.background": "#1c1d1a",
@@ -407,7 +407,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#FD971F"
+        "foreground": "#7d5fff"
       }
     },
     {
