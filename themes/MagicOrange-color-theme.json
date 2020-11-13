@@ -2,16 +2,16 @@
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#10110f",
+    "activityBar.background": "#1C1D1A",
     "activityBarBadge.background": "#ff5100",
     "button.background": "#ff5100",
     "dropdown.background": "#31332e",
-    "editor.background": "#1c1d1a",
-    "editor.foreground": "#f8f8f2",
+    "editor.background": "#1C1D1A",
+    "editor.foreground": "#d1d8e0",
     "editor.lineHighlightBackground": "#31332e",
     "editor.selectionBackground": "#31332e",
     "editorCursor.foreground": "#f8f8f0",
-    "editorGroupHeader.tabsBackground": "#10110f",
+    "editorGroupHeader.tabsBackground": "#1C1D1A",
     "editorWhitespace.foreground": "#31332e",
     "focusBorder": "#ff5100",
     "foreground": "#f8f8f0",
@@ -21,18 +21,18 @@
     "list.focusBackground": "#1b1d1a",
     "list.hoverBackground": "#1b1d1a",
     "list.inactiveSelectionBackground": "#31332e",
-    "menu.background": "#1c1d1a",
+    "menu.background": "#1C1D1A",
     "menu.selectionBackground": "#833d1d",
     "scrollbarSlider.background": "#31332e",
     "selection.background": "#949690",
-    "sideBar.background": "#10110f",
-    "statusBar.background": "#10110f",
+    "sideBar.background": "#1C1D1A",
+    "statusBar.background": "#ff5100", //set here
     "statusBar.noFolderBackground": "#ff5100",
-    "tab.inactiveBackground": "#10110f",
+    "tab.inactiveBackground": "#1C1D1A",
     "textLink.activeForeground": "#833d1d",
     "textLink.foreground": "#ff5100",
-    "titleBar.activeBackground": "#10110f",
-    "titleBar.inactiveBackground": "#10110f",
+    "titleBar.activeBackground": "#1C1D1A",
+    "titleBar.inactiveBackground": "#1C1D1A",
     "window.activeBorder": "#ff5100",
     "window.inactiveBorder": "#1c1d1a",
     "activityBar.activeBorder": "#ff5100",
@@ -357,7 +357,7 @@
       "name": "Template string expression",
       "scope": "meta.template.expression",
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#f8f2f2"
       }
     },
     {
@@ -371,7 +371,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#E6DB74"
+        "foreground": "#ece070"
       }
     },
     {
@@ -399,8 +399,8 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#ceddec",
-        "fontStyle": ""
+        "foreground": "#fd9644",
+        "fontStyle": "bold"
       }
     },
     {
@@ -686,5 +686,5 @@
   //     }
   //   }
   // ],
-  "name": "Devistry+"
+  "name": "MagicOrange"
 }

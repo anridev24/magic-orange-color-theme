@@ -4,7 +4,7 @@
   "description": "Magic Orange 🍊 Color theme",
   "publisher": "anridev",
   "version": "1.0.5",
-  "repository": "",
+  "repository": "https://github.com/secretnazideveloper/magic-orange-color-theme",
   "engines": {
     "vscode": "^1.44.0"
   },

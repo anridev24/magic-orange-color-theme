@@ -1,3 +1,3 @@
-# Devistry color theme
+# Magic Orange Color Theme
 
-[Repository](https://github.com/jgbijlsma/devistry-theme)
+[Repository](https://github.com/secretnazideveloper/magic-orange-color-theme)
