@@ -1,9 +1,9 @@
 {
   "name": "magic-orange",
-  "displayName": "Magic Orange | Color theme",
+  "displayName": "Magic Orange",
   "description": "Beautiful Color theme with mix of orange and arcane colors",
   "publisher": "anridev",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "icon": "images/store-icon.png",
   "repository": "https://github.com/secretnazideveloper/magic-orange-color-theme",
   "engines": {
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "anridev",
+        "label": "Magic Orange",
         "uiTheme": "vs-dark",
         "path": "./themes/MagicOrange-color-theme.json"
       }
