@@ -1,6 +1,6 @@
 {
   "name": "magic-orange",
-  "displayName": "Magic Orange",
+  "displayName": "Magic Orange | Color theme",
   "description": "Beautiful Color theme with mix of orange and arcane colors",
   "publisher": "anridev",
   "version": "1.10.0",
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Magic Orange",
+        "label": "anridev",
         "uiTheme": "vs-dark",
         "path": "./themes/MagicOrange-color-theme.json"
       }
