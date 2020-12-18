@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "anridev",
+        "label": "Magic Orange",
         "uiTheme": "vs-dark",
         "path": "./themes/MagicOrange-color-theme.json"
       }
