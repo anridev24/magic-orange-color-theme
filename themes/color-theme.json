@@ -1,20 +1,18 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
+  "name": "MagicOrange",
+
+  // UI colors
   "colors": {
+    "foreground": "#f8f8f0",
+    "activityBar.foreground": "#f8f8f2",
     "activityBar.background": "#212121",
+    "activityBar.activeBorder": "#EE5A24",
     "activityBarBadge.background": "#ff5100",
     "button.background": "#ff5100",
     "dropdown.background": "#31332e",
-    "editor.background": "#212121",
-    "editor.foreground": "#d1d8e0",
-    "editor.lineHighlightBackground": "#31332e",
-    "editor.selectionBackground": "#31332e",
-    "editorCursor.foreground": "#f8f8f0",
-    "editorGroupHeader.tabsBackground": "#212121",
-    "editorWhitespace.foreground": "#31332e",
     "focusBorder": "#EE5A24",
-    "foreground": "#f8f8f0",
     "input.background": "#212121",
     "list.activeSelectionBackground": "#31332e",
     "list.dropBackground": "#31332e",
@@ -26,45 +24,107 @@
     "scrollbarSlider.background": "#31332e",
     "selection.background": "#949690",
     "sideBar.background": "#212121",
-    "statusBar.background": "#EE5A24", //set here
+    "statusBar.background": "#EE5A24",
     "statusBar.noFolderBackground": "#EE5A24",
-    "tab.inactiveBackground": "#212121",
     "textLink.activeForeground": "#833d1d",
     "textLink.foreground": "#EE5A24",
     "titleBar.activeBackground": "#212121",
     "titleBar.inactiveBackground": "#212121",
+    "editor.background": "#212121",
+    "editor.foreground": "#d1d8e0",
+    "editor.lineHighlightBackground": "#31332e",
+    "editor.selectionBackground": "#31332e",
+    "editorCursor.foreground": "#f8f8f0",
+    "editorGroupHeader.tabsBackground": "#212121",
+    "editorWhitespace.foreground": "#31332e",
     "window.activeBorder": "#EE5A24",
     "window.inactiveBorder": "#212121",
-    "activityBar.activeBorder": "#EE5A24",
-    "activityBar.foreground": "#f8f8f2",
     "badge.background": "#EE5A24",
     "badge.foreground": "#f8f8f2",
     "checkbox.border": "#ff5100",
-    "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "#40B3FF",
-    "terminal.ansiBrightBlack": "#666666",
-    "terminal.ansiBrightBlue": "#3b8eea",
-    "terminal.ansiBrightCyan": "#29b8db",
-    "terminal.ansiBrightGreen": "#23d18b",
-    "terminal.ansiBrightMagenta": "#d670d6",
-    "terminal.ansiBrightRed": "#f14c4c",
-    "terminal.ansiBrightWhite": "#e5e5e5",
-    "terminal.ansiBrightYellow": "#f5f543",
-    "terminal.ansiCyan": "#11cd9e",
-    "terminal.ansiGreen": "#4dbc0d",
-    "terminal.ansiMagenta": "#bc3fbc",
-    "terminal.ansiRed": "#ac0000",
-    "terminal.ansiWhite": "#f8f8f2",
-    "terminal.ansiYellow": "#c7a902",
-    "terminal.foreground": "#f8f8f2",
-    "terminal.selectionBackground": "#ffffff40"
+    "tab.inactiveBackground": "#212121"
   },
+  // Code Colors
   "tokenColors": [
+    // general colors
     {
+      "name": "String",
+      "scope": "string",
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#1EB322"
       }
     },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#FCB065"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#1dd1a1"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+
+    // CSS Colors
+
+    // HTML Colors
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#79E99B"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#35E99B"
+      }
+    },
+
+    // Constant Colors
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#E6583E"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#E6583E"
+      }
+    },
+
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#E6583E"
+      }
+    },
+
     {
       "name": "Template string expression",
       "scope": "meta.template.expression",
@@ -79,49 +139,7 @@
         "foreground": "#75715E"
       }
     },
-    {
-      "name": "String",
-      "scope": "string",
-      "settings": {
-        "foreground": "#4fa839"
-      }
-    },
-    {
-      "name": "Number",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "Built-in constant",
-      "scope": "constant.language",
-      "settings": {
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "User-defined constant",
-      "scope": ["constant.character", "constant.other"],
-      "settings": {
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "Variable",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#fd9644",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#ffbb00"
-      }
-    },
+
     {
       "name": "Storage",
       "scope": "storage",
@@ -164,34 +182,7 @@
         "foreground": "#A6E22E"
       }
     },
-    {
-      "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#1dd1a1"
-      }
-    },
-    {
-      "name": "Function argument",
-      "scope": "variable.parameter",
-      "settings": {
-        "foreground": "#AE81FF"
-      }
-    },
-    {
-      "name": "Tag name",
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "#EE5A24"
-      }
-    },
-    {
-      "name": "Tag attribute",
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#1dd1a1"
-      }
-    },
+
     {
       "name": "Library function",
       "scope": "support.function",
@@ -238,7 +229,5 @@
         "foreground": "#EE5A24"
       }
     }
-  ],
-
-  "name": "MagicOrange"
+  ]
 }
